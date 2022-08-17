@@ -1,0 +1,31 @@
+<scroll-view scroll-y="true" class="container">
+    <view class="blog-card">
+        <c-blog-card blog="{{blog}}" />
+    </view>
+
+    <!-- 评论点赞tab -->
+    <view class="tab">
+        <view class="tab-item">评论列表</view>
+    </view>
+
+    <!-- 评论内容列表 -->
+    <view class="comment-list">
+        <!-- 评论 -->
+        <block wx:for="{{5}}">
+            <view class="comment">
+                <view class="comment-title">
+                    <image class="comment-portrait" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwx2.sinaimg.cn%2Fmw690%2F001PBHOBly1gvnb96cicuj622q340u0x02.jpg&refer=http%3A%2F%2Fwx2.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1663344052&t=8b1a7f7c2792fc528f7edc1fc137f4fb"></image>
+                    <text class="comment-nickname">许嵩</text>
+                </view>
+                <view class="comment-content">
+                    天气真好
+                </view>
+                <view class="comment-time">2022-8-16 08:18</view>
+            </view>
+        </block>
+    </view>
+</scroll-view>
+
+<view class="blog-ctrl">
+    <c-blog-ctrl />
+</view>

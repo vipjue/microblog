@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "c-search": "/components/search/search",
+    "c-blog-card": "/components/blog-card/blog-card",
+    "c-blog-ctrl": "/components/blog-ctrl/blog-ctrl",
+    "c-login": "/components/login/login"
+  }
+}

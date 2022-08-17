@@ -1,0 +1,17 @@
+<view class="blog">
+  <view class="blog-title">
+    <image class="blog-portrait" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwx2.sinaimg.cn%2Fmw690%2F001PBHOBly1gvnb96cicuj622q340u0x02.jpg&refer=http%3A%2F%2Fwx2.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1663344052&t=8b1a7f7c2792fc528f7edc1fc137f4fb"></image>
+    <view class="blog-box">
+      <view class="blog-nickName">许嵩</view>
+      <view class="blog-time">2020-18-8 08:08</view>
+    </view>
+  </view>
+  <view class="blog-content">
+    <text>今天天气真好</text>
+  </view>
+  <view class="blog-img">
+    <block>
+      <image class="img" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwx2.sinaimg.cn%2Fmw690%2F001PBHOBly1gvnb96cicuj622q340u0x02.jpg&refer=http%3A%2F%2Fwx2.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1663344052&t=8b1a7f7c2792fc528f7edc1fc137f4fb" mode="aspectFill"></image>
+    </block>
+  </view>
+</view>

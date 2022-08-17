@@ -1,0 +1,5 @@
+<c-bottom-modal>
+  <view slot="modal-content">
+    <button class="login" bindtap="onGotUserInfo">获取微信授权信息</button>
+  </view>
+</c-bottom-modal>
