@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/blog-comment/blog-comment",
+    "pages/blog/blog",
     "pages/publish/publish",
-    "pages/blog/blog"
+    "pages/blog-comment/blog-comment"
   ],
   "window": {
     "backgroundTextStyle": "light",
